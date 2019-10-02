@@ -30,4 +30,25 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  pages:
+    home:
+      welcome: "Welcome To Viet Nam Review Tour App"
+      intro: "This is the home page for the Review application."
+      sign: "Sign up to review now!"
+      logo: "pages logo"
+    help:
+      help: "Help!"
+  layouts:
+    application:
+      railsapp: "Rails Review App"
+    header:
+      reviewtour: "Review Tour"
+      category: "Category"
+      locate: "Mien Bac"
+      home: "Home"
+      help: "Help"
+      log_in: "Log In"
+    footer:
+      copyright: "© 2019 Your Company. All Rights Reserved by Rails"
+      about: "About"
+      contact: "Contact"
