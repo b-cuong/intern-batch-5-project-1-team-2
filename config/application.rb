@@ -17,3 +17,10 @@ module InternBatch5Project1Team2
     # the framework and any gems in your application.
   end
 end
+
+module Master
+  class Application < Rails::Application
+    config.load_defaults 5.2
+    config.i18n.default_locale = :en
+  end
+end

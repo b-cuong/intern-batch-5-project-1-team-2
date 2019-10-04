@@ -1,0 +1,11 @@
+vi:
+  users:
+    form:
+      signup: "Đăng ký"
+      texterror: "Xảy ra %{error}"
+      error: "Lỗi"
+      textsubmit: "Tạo tài khoản"
+      name: "Họ tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"

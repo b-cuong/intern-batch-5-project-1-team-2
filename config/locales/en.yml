@@ -52,3 +52,13 @@ en:
       copyright: "© 2019 Your Company. All Rights Reserved by Rails"
       about: "About"
       contact: "Contact"
+  users:
+    form:
+      signup: "Signup"
+      texterror: "The form contains %{error}"
+      error: "Error"
+      textsubmit: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "password_confirmation"
