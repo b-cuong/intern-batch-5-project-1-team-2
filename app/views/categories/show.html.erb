@@ -1,0 +1,20 @@
+<% provide :title, @category.name %>
+<div class="row">
+  <aside class="col-md-4">
+    <section>
+      <h1>
+        <%= @category.name %>
+      </h1>
+    </section>
+  </aside>
+  <div class="col-md-8">
+    <% if @tourist_areas.any? %>
+      <h3><%= t(".touristarea", touristareas_count: @tourist_areas.count) %></h3>
+      <%= will_paginate @tourist_areas %>
+      <ol class="tourist">
+        <%= render @tourist_areas %>
+      </ol>
+      <%= will_paginate @tourist_areas %>
+    <% end %>
+  </div>
+</div>

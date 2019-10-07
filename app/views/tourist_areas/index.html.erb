@@ -1,0 +1,7 @@
+<% provide :title, t(".touristarea") %>
+<h1><%= t ".touristarea" %></h1>
+<%= will_paginate @tourist_areas %>
+<ul class="tourist">
+  <%= render @tourist_areas %>
+</ul>
+<%= will_paginate @tourist_areas %>

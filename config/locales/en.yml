@@ -36,6 +36,8 @@ en:
       intro: "This is the home page for the Review application."
       sign: "Sign up to review now!"
       logo: "pages logo"
+      users: "All Users"
+      touristarea: "All Tourist Areas"
     help:
       help: "Help!"
   layouts:
@@ -49,6 +51,7 @@ en:
       help: "Help"
       log_in: "Log In"
       log_out: "Log out"
+      touristarea: "All Tourist Areas"
     footer:
       copyright: "© 2019 Your Company. All Rights Reserved by Rails"
       about: "About"
@@ -76,3 +79,12 @@ en:
       remember_me: "Remember me on this computer"
       signup_now: "Sign up now!"
       newuser: "New user?"
+  tourist_areas:
+    index:
+      touristarea: "All Tourist Areas"
+    tourist_area:
+      createby: "Create By"
+      at: "At"
+  categories:
+    show:
+      touristarea: "Tourist Areas (%{touristareas_count})"
