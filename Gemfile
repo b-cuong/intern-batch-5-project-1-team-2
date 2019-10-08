@@ -36,4 +36,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
+gem "bootstrap-will_paginate", "1.0.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "will_paginate", "3.1.7"

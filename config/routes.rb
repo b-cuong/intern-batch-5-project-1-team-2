@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "tourist_areas/index"
   root "pages#home"
   get  "/help",    to: "pages#help"
   get  "/about",   to: "pages#about"
@@ -9,4 +10,6 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   resources :users
+  resources :categories, only: :show
+  resources :tourist_areas, only: [:show, :index]
 end

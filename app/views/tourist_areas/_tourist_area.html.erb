@@ -1,0 +1,9 @@
+<li id="tourist_area-<%= tourist_area.id %>">
+  <span class="content">
+    <%= link_to tourist_area.name, tourist_area %>
+    <%= t ".createby" %>
+    <%= link_to tourist_area.user.name, tourist_area.user %>
+    <%= t ".at" %>
+    <%= tourist_area.created_at %>
+  </span>
+</li>
