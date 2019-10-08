@@ -48,17 +48,31 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log In"
+      log_out: "Log out"
     footer:
       copyright: "© 2019 Your Company. All Rights Reserved by Rails"
       about: "About"
       contact: "Contact"
   users:
-    form:
+    new:
       signup: "Signup"
+    form:
+      signup: "Sign up"
       texterror: "The form contains %{error}"
       error: "Error"
       textsubmit: "Create my account"
-      name: "Name"
+      name: "name"
       email: "Email"
       password: "Password"
       password_confirmation: "password_confirmation"
+  sessions:
+    flash_login: "Invalid email/password combination"
+    new:
+      login: "Login"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      remember: "Remember_me"
+      remember_me: "Remember me on this computer"
+      signup_now: "Sign up now!"
+      newuser: "New user?"
