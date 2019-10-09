@@ -1,0 +1,16 @@
+en:
+  Application:
+    logged_in_user:
+      danger: "Please log in."
+  tourist_areas:
+    create:
+      success: "Tourist_area created!"
+      danger: "Please log in."
+    update:
+      success: "Tourist Area updated"
+    destroy:
+      success: "Tourist Area deleted"
+    new:
+      danger: "Please log in."
+    edit:
+      danger: "Please log in."
