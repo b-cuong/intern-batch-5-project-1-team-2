@@ -1,0 +1,14 @@
+<%= form_for tourist_area do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <%= f.label t ".name" %>
+  <%= f.text_field :name, class: "form-control" %>
+  <%= f.label t ".address" %>
+  <%= f.text_field :address, class: "form-control" %>
+  <%= f.label t ".phonenumber" %>
+  <%= f.text_field :phone_number, class: "form-control" %>
+  <%= f.label t ".categoryid" %>
+  <%= f.collection_select :category_id, list_categories, :id, :name %>
+  <%= f.label t ".introduce" %>
+  <%= f.text_area :introduce, class: "form-control" %>
+  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+<% end %>

@@ -6,4 +6,10 @@
     <%= t ".at" %>
     <%= tourist_area.created_at %>
   </span>
+  <span class="timestamp">
+    <% if current_user? tourist_area.user %>
+      <%= link_to t(".delete"), tourist_area, method: :delete, data: { confirm: t(".yousure") } %>
+      <%= link_to t(".update"), edit_tourist_area_path(tourist_area.id) %>
+    <% end %>
+  </span>
 </li>

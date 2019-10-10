@@ -1,5 +1,6 @@
 <% provide :title, t(".touristarea") %>
 <h1><%= t ".touristarea" %></h1>
+<h1><%= link_to t(".create_tourist_area"), new_tourist_area_path %></h1>
 <%= will_paginate @tourist_areas %>
 <ul class="tourist">
   <%= render @tourist_areas %>

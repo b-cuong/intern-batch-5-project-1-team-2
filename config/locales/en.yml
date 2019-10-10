@@ -95,9 +95,34 @@ en:
   tourist_areas:
     index:
       touristarea: "All Tourist Areas"
+      create_tourist_area: "Create New Tourist Area"
     tourist_area:
       createby: "Create By"
       at: "At"
+      delete: "delete"
+      yousure: "You sure?"
+      update: "Update"
+    form:
+      name: "Name"
+      address: "Address"
+      phonenumber: "Phonenumber"
+      categoryid: "Category"
+      introduce: "Introduce"
+    new:
+      new_tourist_area: "New Tourist Area"
+      create_tourist_area: "Create Tourist Area"
+    edit:
+      edit_tourist_area: "Edit Tourist Area"
+      save_change: "Save Change"
+    show:
+      address: "Address: %{address}"
+      phonenumber: "Phone Number: %{phonenumber}"
+      introduce: "Introduce: %{introduce}"
+      createby: "Create By: %{createby}"
+      region: "Region: %{region}"
+      writereview: "Write A Review"
+      allreview: "All Tourist Area Review"
   categories:
     show:
       touristarea: "Tourist Areas (%{touristareas_count})"
+      create_tourist_area: "Create New Tourist Area"

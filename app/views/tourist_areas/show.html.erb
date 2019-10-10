@@ -1,0 +1,17 @@
+<% provide :title, @tourist_area.name %>
+<div class="row">
+  <aside class="col-md-4">
+    <section>
+      <h3><%= @tourist_area.name %></h1>
+      <h5><%= t ".address", address: @tourist_area.address %></h1>
+      <h5><%= t ".phonenumber", phonenumber: @tourist_area.phone_number %></h1>
+      <h5><%= t ".introduce", introduce: @tourist_area.introduce %></h1>
+      <h5><%= t ".createby", createby: @tourist_area.user.name %></h1>
+      <h5><%= t ".region", region: @tourist_area.category.name %></h1>
+      <%= link_to t(".writereview"), "#", class: "btn btn-lg btn-primary" %>
+    </section>
+  </aside>
+  <div class="col-md-8">
+    <h3><%= t ".allreview" %></h3>
+  </div>
+</div>
