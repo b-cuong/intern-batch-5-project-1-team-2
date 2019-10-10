@@ -44,11 +44,12 @@ en:
     application:
       railsapp: "Rails Review App"
     header:
+      setting: "Setting"
       reviewtour: "Review Tour"
       category: "Category"
       locate: "Mien Bac"
       home: "Home"
-      help: "Help"
+      users: "Users"
       log_in: "Log In"
       log_out: "Log out"
       touristarea: "All Tourist Areas"
@@ -57,13 +58,25 @@ en:
       about: "About"
       contact: "Contact"
   users:
+    flash_updated: "Profile updated"
+    flash_deleted: "User deleted"
+    user:
+      you_sure: "You Sure ?"
     new:
       signup: "Signup"
+      textsubmit: "Create my account"
+    index:
+      please: "Please log in."
+      all_users: "All users"
+    edit:
+      please: "Please log in."
+      update_profile: "Update your profile"
+      edit_user: "Edit User"
+      save: "Save"
     form:
       signup: "Sign up"
       texterror: "The form contains %{error}"
       error: "Error"
-      textsubmit: "Create my account"
       name: "name"
       email: "Email"
       password: "Password"
