@@ -1,4 +1,4 @@
 class Rating < ApplicationRecord
   belongs_to :user
-  belongs_to :tourist_area
+  belongs_to :tourist_area tuan
 end
